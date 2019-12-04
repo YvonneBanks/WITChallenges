@@ -1,0 +1,52 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#main-doc{
+  height: 20%;
+  padding: 5px 10px 15px 10px;
+  position: fixed;
+}
+#main{
+display: -webkit-box;
+-webkit-box-orient: horizontal;
+height: 100%;
+width: 30%;
+}
+#nav-bar{
+ width:20%;
+ padding: 5px; 
+ position: fixed; 
+ height: 80%;
+ left:0;
+ border-right-style: solid;
+  border-left-style: solid;
+}
+#content{
+ width:70%;
+ height: fit-content;
+ padding: 5px;
+ margin-left: 290px;
+
+}
+#nav-link li{
+margin: 20px;
+list-style: none;
+width:inherit;
+}
+#nav-link a{
+color: grey;
+padding: 5px 10px;
+text-decoration: none;
+/* /border-bottom: 2px solid grey; */
+}
+#div{
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+  padding: 5px;
+}
+html {
+  scroll-behavior: smooth;
+ }
